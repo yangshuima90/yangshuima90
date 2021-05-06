@@ -55,7 +55,58 @@
             "repo": "https://github.com/age174/-/blob/main/lgyy.js",
             "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
             "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
-    },	   
+    },
+		   {
+      "author": "@sunert", 
+      "keys": [
+        "baidu_nick", 
+        "chavy_cookie_tieba", 
+        "CookieTB", 
+        "cash_baidu"
+      ], 
+      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/baiduspeed.js", 
+      "id": "baidu", 
+      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baiduspeed.js", 
+      "settings": [
+        {
+          "items": [
+            {
+              "key": "5", 
+              "label": "5元"
+            }, 
+            {
+              "key": "30", 
+              "label": "30元"
+            }, 
+            {
+              "key": "50", 
+              "label": "50元"
+            }, 
+            {
+              "key": "100", 
+              "label": "100元"
+            }
+          ], 
+          "id": "cash_baidu", 
+          "val": "30", 
+          "name": "提现金额", 
+          "type": "radios", 
+          "desc": "自动提现金额"
+        }, 
+        {
+          "id": "task_baidu", 
+          "val": true, 
+          "name": "任务开关", 
+          "type": "boolean", 
+          "desc": "除提现和兑换金币外开关，默认开启所有任务"
+        }
+      ], 
+      "name": "百度极速任务", 
+      "icons": [
+        "https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
+        "https://raw.githubusercontent.com/Sunert/Profiles/master/QuantumultX/Rules/Images/icon/baiduspeed.png"
+      ]
+    }, 
      {	  
       "id": "youthCk",
       "name": "中青数据",
