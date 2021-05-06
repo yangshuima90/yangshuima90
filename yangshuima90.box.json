@@ -56,7 +56,7 @@
             "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
             "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
     },	   
-      {
+     {
    "id": "bububaosign",
    "name": "步步宝APP",
    "keys": ["bububaoheader","fxzheader","fxzbody","bububaoheader2","fxzheader2","fxzbody2","bububaoheader3","fxzheader3","fxzbody3","bububaoheader4","fxzheader4","fxzbody4","bububaoheader5","fxzheader5","fxzbody5","bububaoheader6","fxzheader6","fxzbody6","bububaoheader7","fxzheader7","fxzbody7","bububaoheader8","fxzheader8","fxzbody8","bububaoheader9","fxzheader9","fxzbody9","bububaoheader10","fxzheader10","fxzbody10"],
@@ -93,7 +93,7 @@
    "repo": "https://github.com/DD-D1/Script/blob/main/bubusign.js",
    "icons": ["https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/bubupng.png","https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/bubupng.png"],
    "script": "https://raw.githubusercontent.com/DD-D1/Script/main/bubusign.js"
-   },	   
+   },
      {	  
       "id": "youthCk",
       "name": "中青数据",
