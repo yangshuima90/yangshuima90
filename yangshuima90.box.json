@@ -32,7 +32,30 @@
       "author": "@dompling",
       "repo": "https://github.com/dompling/Script",
       "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/JD_extra.js"
-    },		  	  
+    },		  
+	 {
+            "id": "lgyy",
+            "name": "朗果英语",
+            "keys": ["lgyyurl", "lgyyhd", "lgyybody", "lgyyurl2", "lgyyhd2", "lgyybody2","lgyyurl3", "lgyyhd3", "lgyybody3","lgyyurl4", "lgyyhd4", "lgyybody4","lgyyurl5", "lgyyhd5", "lgyybody5","lgyyurl6", "lgyyhd6", "lgyybody6","lgyyurl7", "lgyyhd7", "lgyybody7","lgyyurl8", "lgyyhd8", "lgyybody8","lgyyurl9", "lgyyhd9", "lgyybody9","lgyyurl10", "lgyyhd10", "lgyybody10","lgyyurl11", "lgyyhd11", "lgyybody11"],
+            "author": "@feizao",
+            "settings": [{
+            "id": "lgyystatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "lgyycount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "https://github.com/age174/-/blob/main/lgyy.js",
+            "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
+            "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
+    },	   
      {	  
       "id": "youthCk",
       "name": "中青数据",
@@ -70,31 +93,7 @@
       "repo": "https://github.com/ztxtop/x/blob/main/youth.js",
       "icons": ["https://gitee.com/the-eldest-is-xu/color/raw/master/youth.png", "https://gitee.com/the-eldest-is-xu/color/raw/master/youth.png"],
       "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
-    },
-		   {
-            "id": "lgyy",
-            "name": "朗果英语",
-            "keys": ["lgyyurl", "lgyyhd", "lgyybody", "lgyyurl2", "lgyyhd2", "lgyybody2","lgyyurl3", "lgyyhd3", "lgyybody3","lgyyurl4", "lgyyhd4", "lgyybody4","lgyyurl5", "lgyyhd5", "lgyybody5","lgyyurl6", "lgyyhd6", "lgyybody6","lgyyurl7", "lgyyhd7", "lgyybody7","lgyyurl8", "lgyyhd8", "lgyybody8","lgyyurl9", "lgyyhd9", "lgyybody9","lgyyurl10", "lgyyhd10", "lgyybody10","lgyyurl11", "lgyyhd11", "lgyybody11"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "lgyystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "lgyycount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    }],
-            "repo": "https://github.com/age174/-/blob/main/lgyy.js",
-            "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
-    },
-		   
+    },	   
     {
       "id": "youthNeRead",
       "name": "中青阅读",
