@@ -90,9 +90,9 @@
    "desc": "根据软件提现额度设置50就是提50 默认0"
    }
    ],
-   "repo": "https://github.com/DD-D1/Script/blob/main/bubusign.js",
+   "repo": "https://raw.githubusercontent.com/yangshuima90/yangshuima90/mian/bububaosign.js",
    "icons": ["https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/bubupng.png","https://raw.githubusercontent.com/DD-D1/XIAOPU/main/xiaopu/bubupng.png"],
-   "script": "https://raw.githubusercontent.com/DD-D1/Script/main/bubusign.js"
+   "script": "https://raw.githubusercontent.com/yangshuima90/yangshuima90/mian/bububaosign.js"
    },
      {	  
       "id": "youthCk",
