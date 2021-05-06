@@ -299,15 +299,4 @@
             "repo": "https://github.com/age174/-/blob/main/lgyy.js",
             "icons": ["https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg", "https://ae01.alicdn.com/kf/Uc3c35e1796624a7ca6a23c89c7f0dff2H.jpg"],
             "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
-    } ,
-      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/Youth_Read.js", 
-      "id": "youthRead", 
-      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js", 
-      "name": "中青自动阅读", 
-      "icons": [
-        "https://gitee.com/the-eldest-is-xu/color/raw/master/youth.png", 
-        "https://gitee.com/the-eldest-is-xu/color/raw/master/youth.png"
-      ]
-    
- ]
-}
+    } , 
