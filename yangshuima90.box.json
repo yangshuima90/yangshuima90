@@ -204,7 +204,7 @@
 	{
    "id": "bububaosign",
    "name": "步步宝APP",
-   "keys": ["bububaoheader","fxzheader","fxzbody","bububaoheader2","fxzheader2","fxzbody2","bububaoheader3","fxzheader3","fxzbody3","bububaoheader4","fxzheader4","fxzbody4","bububaoheader5","fxzheader5","fxzbody5","bububaoheader6","fxzheader6","fxzbody6","bububaoheader7","fxzheader7","fxzbody7","bububaoheader8","fxzheader8","fxzbody8","bububaoheader9","fxzheader9","fxzbody9","bububaoheader10","fxzheader10","fxzbody10"],
+   "keys": ["bububaotoken","bububaotoken2","bububaotoken3","bububaoheader4","fxzheader2","fxzbody2","bububaoheader3","fxzheader3","fxzbody3","bububaoheader4","fxzheader4","fxzbody4","bububaoheader5","fxzheader5","fxzbody5","bububaoheader6","fxzheader6","fxzbody6","bububaoheader7","fxzheader7","fxzbody7","bububaoheader8","fxzheader8","fxzbody8","bububaoheader9","fxzheader9","fxzbody9","bububaoheader10","fxzheader10","fxzbody10"],
    "author": "@dd",
    "settings": [{
    "id": "bububaoSuffix",
