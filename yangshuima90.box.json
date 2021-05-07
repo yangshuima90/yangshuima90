@@ -45,6 +45,139 @@
             "type": "number",
             "desc": "当前账号对应"
     },
+	{
+      "id": "jd_Joy_Reward",
+      "name": "宠汪汪积分兑换京豆",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdJoyRewardNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "开启后成功兑换到京豆也不发出系统弹窗通知"
+        },
+        {
+          "id": "joyRewardName",
+          "name": "是否兑换京豆",
+          "val": "1",
+          "type": "radios",
+          "desc": "默认开启兑换，如不想兑换可选择不兑换",
+          "items": [
+            {
+              "key": "0",
+              "label": "不兑换奖品(选择此项将不兑换奖品)"
+            },
+            {
+              "key": "1",
+              "label": "兑换20京豆"
+            },
+            {
+              "key": "500",
+              "label": "兑换500京豆"
+            },
+            {
+              "key": "1000",
+              "label": "兑换1000京豆"
+            }
+          ]
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+	{
+      "id": "jd_SuperMarket_Reawrd",
+      "name": "东东超市兑换奖品",
+      "keys": [
+        "coinToBeans"
+      ],
+      "desc": "默认不兑换奖品,例如:兑换20京豆输入20,兑换1000京豆输入1000,兑换 柠檬果香洗手液， 输入 柠檬果香洗手液。其他详细的奖品名称去东东超市活动页面查看",
+      "settings": [
+        {
+          "id": "jdSuperMarketRewardNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "开启后成功兑换到奖品不发出系统弹窗通知"
+        },
+        {
+          "id": "coinToBeans",
+          "name": "兑换奖品（默认不兑换）",
+          "val": "0",
+          "type": "text",
+          "desc": "输入兑换奖品名称(默认不兑换奖品)"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "scripts": [
+        {
+          "name" : "东东超市兑换奖品",
+          "script" : "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      ]
+    },
+    {
+      "id": "lxk0301Webhook",
+      "name": "Webhook",
+      "keys": [
+        "ACTIONS_TRIGGER_TOKEN",
+        "githubUser",
+        "repo",
+        "TRIGGER_KEYWORDS"
+      ],
+      "settings": [
+        {
+          "id": "ACTIONS_TRIGGER_TOKEN",
+          "name": "github token",
+          "val": "",
+          "type": "text",
+          "desc": "申请教程:https://www.jianshu.com/p/bb82b3ad1d11 记得勾选repo权限就行"
+        },
+        {
+          "id": "githubUser",
+          "name": "github 用户名",
+          "val": "",
+          "type": "text",
+          "desc": "例如：lxk0301"
+        },
+        {
+          "id": "repo",
+          "name": "仓库名称",
+          "val": "",
+          "type": "text",
+          "desc": "例如：scripts"
+        },
+        {
+          "id": "TRIGGER_KEYWORDS",
+          "name": "触发关键词",
+          "val": "",
+          "type": "text",
+          "desc": ".github/workflows/路径里面yml文件repository_dispatch项目的types值，例如jd_fruit.yml里面的值为fruit,多个使用英文逗号','隔开"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
+      "script": "https://gitee.com/lxk0301/jd_scripts/raw/master/backUp/webhook.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/webhooks_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/webhooks.png"
+      ]
+    },
+			 
+			 
+			 
+			 
     {
             "id": "lgyycount",
             "name": "账号个数",
