@@ -60,7 +60,33 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png"
       ]
     },
-		   
+	{
+      "id": "jx_cfd",
+      "name": "京喜财富岛",
+      "settings": [
+        {
+          "id": "cfd_showLog",
+          "name": "日志开关",
+          "val": false,
+          "type": "boolean",
+          "desc": "是否打开接口返回详情日志打印，默认关闭"
+        },
+        {
+          "id": "cfd_notifyTime",
+          "name": "京喜财富岛通知时间",
+          "val": "",
+          "type": "text",
+          "desc": "防止频繁通知，可以设置通知时间，24小时制，比如 19 或者 19:30，多个时间以英文逗号隔开."
+        }
+      ],
+      "author": "@whyour",
+      "repo": "https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js",
+      "script": "https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png"
+      ]
+    },	   
 		   
 	{
       "id": "jd_Joy_Reward",
