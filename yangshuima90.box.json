@@ -59,8 +59,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png"
       ]
-    },
-	{
+    },{
       "id": "jx_cfd",
       "name": "京喜财富岛",
       "settings": [
@@ -86,8 +85,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png"
       ]
-    },	   
-		   
+    },   
 	{
       "id": "jd_Joy_Reward",
       "name": "宠汪汪积分兑换京豆",
