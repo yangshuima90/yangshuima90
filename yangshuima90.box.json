@@ -139,8 +139,7 @@
             "script": "https://raw.githubusercontent.com/age174/-/main/lgyy.js"
     } ,
 		   
-		   
-    {
+	{
       "author": "@sunert", 
       "keys": [
         "baidu_nick",
@@ -203,8 +202,7 @@
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed_mini.png", 
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/baiduspeed.png"
       ]
-    },
-		   
+    }, 
 	{
     "id": "dyjsb",
     "name": "抖音极速版",
